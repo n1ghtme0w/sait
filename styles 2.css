@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(3, 60, 17);
+    color: rgb(81, 76, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 1.5;
+}
+header {
+    background-color: rgb(3, 60, 17);
+    text-align: center;
+    color: rgb(81, 76, 76);
+    border-radius: 10px;
+}
+section
+{
+    background-color: rgb(3, 60, 17);
+    text-align: center;
+    color: rgb(81, 76, 76);
+    border-radius: 10px;
+
+}
+img {
+    
+    border: 2px solid rgb(30, 200, 73);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

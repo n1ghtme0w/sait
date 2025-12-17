@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>мото гараж</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>мото гараж</h1>
+        <p>маркет мотоциклов</p>
+        <b>купи мотоцикл тут</b>
+    </header>
+    <nav>
+        <a href="#motocikl">мотоциклы</a>
+        <a href="#kvadro">квадроциклы</a>
+        <a href="#cold bike">снегоходы</a>
+        <a href ="#cart">каталог(<span id="cart-count">0</span>)</a>
+    </nav>
+    <main>
+        <h3>каталог мотоциклов</h3>
+        <section id="motocikl">
+            <div>
+                <article>
+                    <h3>Kayo k1 250mx</h3>
+                    <p>средне размерный мотоцикл для эндуро кросса</p>
+                    <img src="Kayo k1 250mx.jpg">
+                    <p>цена:150 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k1 250mx)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>Kayo tt basic yx125</h3>
+                    <p>легкий и красивый питбайк </p>
+                    <img src="Kayo.jpg">
+                    <p>цена:109 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo tt basic yx125)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>Kayo k2 pro</h3>
+                    <p>полно размерный мотоцикл для кросса</p>
+                    <img src="Kayo k2 pro.jpg">
+                    <p>цена:180 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>KTM 250 SX</h3>
+                    <p>мотоцикл для кросса</p>
+                    <img src="ktm.jpg">
+                    <p>цена:600 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>Минск</h3>
+                    <p>СОВЕТСКИй мотоцикл</p>
+                    <img src="минск.jpg">
+                    <p>цена:1000000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>АЛЬФА</h3>
+                    <p>ЛЕГЕНДАРНЫй мотоцикл</p>
+                    <img src="альфа.jpg">
+                    <p>цена:1000000р</p>
+                    <button>купить</button>
+                    <button>в корзину</button><button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+            </div>
+        </section>
+        <h2>каталог квадроциклов</h2>
+        <section id ="kvadro">
+            <div>
+                <article>
+                    <h3>Arnic cat 650</h3>
+                    <p>туристический квадроцикл</p>
+                    <img src="Cat.webp">
+                    <p>цена:2 000 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>yamaha raptor 250</h3>
+                    <p>туристический квадроцикл</p>
+                    <img src="yamaha.jpg">
+                    <p>цена:165 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>BRP 650</h3>
+                    <p>квадроцикл</p>
+                    <img src="brp.jpg">
+                    <p>цена:999 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+            </div>
+        </section>
+        <h2>каталог снегоходов</h2>
+        <section id="cold bike">
+            <div>
+                <article>
+                    <h3>ТАЙГА</h3>
+                    <p>классический снегоход</p>
+                    <img src="снегоход.jpg">
+                    <p>цена:500 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Kayo k2 pro)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>Arctic Cat M 8000</h3>
+                    <p>спортивный снегоход</p>
+                    <img src="кет.jpg">
+                    <p>цена:2 000 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(Arctic Cat M 8000,2 000 000р)>добавь в корзину</button>
+                </article>
+                <article>
+                    <h3>ski doo skandic wt 600 e tec</h3>
+                    <p>горный снегоход</p>
+                    <img src="брп.jpg">
+                    <p>цена:1 500 000р</p>
+                    <button>купить</button>
+                    <button onclick="addToCart"(ski doo skandic wt 600 e tec,1 500 000р)>добавь в корзину</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <section>
+        <h2>🛒Корзина</h2>
+        <div id="cart-items">
+            <p id="empty-cart-message">Корзина пуста</p>
+        </div>
+
+        <div id ="cart-total">
+            <p>Итого: <span id="total-price">0</span> руб</p>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <p>мото гараж</p>
+        <p>все права защищены</p>
+        <p>8 911-44-777-26</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
